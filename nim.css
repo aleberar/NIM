@@ -1,0 +1,68 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url('https://wallpapercave.com/wp/wp9267865.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat:repeat;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100vw;
+    background-attachment: fixed;
+}
+
+.login_button{
+    color: rgb(255, 222, 6);
+    width: 200px;
+    height: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(255, 222, 6);
+    border-radius: 10px;
+}
+.login_button:hover{
+    background-color: rgb(23, 23, 23);
+    color: rgb(193, 168, 0);
+    border-color: rgb(193, 168, 0);
+    transform: scale(1.01);
+    
+}
+
+
+.top_right_group{
+    display: flex;
+    justify-content: flex-end; /*right*/
+
+}
+h1{
+
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 222, 6);
+    font-style: bold, italic;
+    padding-top: 5%;
+    font-size: 55px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.movie_of_the_week{
+    width: 23%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.previous_text{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 222, 6);
+    font-style: bold, italic;
+    padding-top: 5%;
+    font-size: 35px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}

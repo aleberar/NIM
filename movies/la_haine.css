@@ -1,0 +1,12 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url('https://wallpapercave.com/wp/wp9267865.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat:repeat;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100vw;
+    background-attachment: fixed;
+}
